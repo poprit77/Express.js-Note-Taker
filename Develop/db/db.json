@@ -1,41 +1,15 @@
-[{
-    "title": "Test" ,
-    "text": "Test",
-    "id": 1
+[
+  4,
+  {
+    "id": {
+      "title": "Test",
+      "text": "Test",
+      "id": 1
+    }
   },
   {
-    "title": "monday",
-    "text": "dishes",
-    "id": 2
-  },
-  {
-    "title": "tuesday",
-    "text": "laundry",
-    "id": 3
-  },
-  {
-    "title": "wednesday",
-    "text": "clean floors",
-    "id": 4
-  },
-  {
-    "title": "thursday",
-    "text": "organize garage",
-    "id": 5
-  },
-  {
-    "title": "friday",
-    "text": "dishes",
-    "id": 6
-  },
-
-  {
-    "title": "Saturday",
-    "text": "yard work",
-    "id": 7
-  },
-  {
-    "title": "Sunday",
-    "text": "mkae dinner",
-    "id": 8
-  }]
+    "title": "sfgsfdgsgf",
+    "text": "sgsfg",
+    "id": null
+  }
+]
