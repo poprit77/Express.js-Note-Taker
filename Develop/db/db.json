@@ -1,15 +1,13 @@
 [
-  
-  {
-    "id": {
-      "title": "Test",
-      "text": "Test",
-      "id": 1
-    }
-  },
+  null,
   {
     "title": "sfgsfdgsgf",
     "text": "sgsfg",
+    "id": null
+  },
+  {
+    "title": "this works ",
+    "text": "YAY!",
     "id": null
   }
 ]
