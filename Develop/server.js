@@ -9,7 +9,6 @@ const allNotes = require('./db/db.json');
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static('public'));
 
 app.get('/api/notes', (req, res) => {
     res.json(allNotes.slice(1));
@@ -69,9 +68,9 @@ function deleteNote(id, notesArray) {
 
 app.delete('/api/notes/:id', (req, res) => {
     deleteNote(req.params.id, allNotes);
-    res.json(true);
+    res.json(true); 
 });
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log(`API server now on port ${PORT}!`);
 });
